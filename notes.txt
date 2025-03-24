@@ -1,0 +1,24 @@
+-->
+In C++ projects, files with the .hpp extension are header files that typically contain declarations—such as function prototypes, class definitions, constants, and macros—that are intended to be shared across multiple source files. The io.hpp file, by its name, likely contains declarations and possibly inline definitions related to input/output (I/O) operations, such as reading from or writing to streams, files, or other data sources.
+
+-->
+In C++, "streams" are abstractions that represent a flow of data. When we say "reading from a stream," it means taking input data from a source (like a keyboard, file, or network connection) into your program. "Writing to a stream" refers to sending output data from your program to a destination (like the console, a file, or even another device).
+
+-->
+
+-->
+
+-->
+
+-->
+
+-->
+
+-->
+
+-->
+
+move kem vaparyu io class define karva maa
+.env no path kem aam lakhyo
+
+
