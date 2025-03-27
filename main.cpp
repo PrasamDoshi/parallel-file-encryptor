@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
                     IO io(filePath);
                     std::fstream f_stream = io.getFileStream();
                     if(f_stream.is_open()){
-                        Action taskAction = (action=="ENCRYPT")?Action::ENCRYPT:Action::DECRYPT;
+                        Action taskAction = (action=="encrypt")?Action::ENCRYPT:Action::DECRYPT;
                         auto task = std::make_unique<Task>(std::move(f_stream),taskAction, filePath);
                         processManagement.submitToQueue(std::move(task));
                     }
@@ -33,7 +33,7 @@ int main(int argc, char *argv[]){
                     }
                 }
             }
-            processManagement.executeTasks();
+            // processManagement.executeTasks();
         }
         else{
             std::cout << "Invalid directory path " << std::endl;
